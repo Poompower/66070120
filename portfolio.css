@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bakbak One', cursive;
+    background-color: hwb(197 38% 3%);
+}
+header {
+    max-width: 1920px;
+    max-height: 1080px;
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+.contact ul li a {
+    text-decoration: none;
+}
+.name h1 {
+    font-size: 80px;
+    color: hsl(98, 100%, 11%);
+}
+.name p {
+    font-size: 20px;
+    color: hsl(98, 100%, 11%);
+}
+.contact ul li {
+    display: flex;
+    list-style: none;
+}
+.myname {
+    display: flex;
+    place-items: center;
+    text-align: center;
+}
+.myname p {
+    font-size: 24px;
+    color: red;
+    font-family: 'Bakbak One', cursive;
+}
+.school a {
+    text-decoration: none;
+}
